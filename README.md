@@ -21,11 +21,10 @@ t.b.d
 
 
 ## Getting Started
-Follow these instructions to get a copy of the project up and running on your local machine for development and testing purposes.
 
 
 ## Contact
-- **Project Link**: [https://github.com/yasin.codes/tech-guide](https://github.com/yasin.codes/tech-guide)
+- **Project Link**: [https://github.com/yasin.codes/tech-guide](https://github.com/yasincodes97/tech-guide)
 - **Instagram**: [@yasin.codes](https://www.instagram.com/yasin.codes)
 
 
