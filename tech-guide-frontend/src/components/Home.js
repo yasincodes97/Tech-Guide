@@ -17,7 +17,7 @@ function Home() {
 
   return (
     <div>
-      <h1>{message}</h1>
+      <h1>This is the beginning of your best coding journey ever..!</h1>
     </div>
   );
 }

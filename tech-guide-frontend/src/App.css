@@ -36,3 +36,15 @@
     transform: rotate(360deg);
   }
 }
+
+.style1 {
+
+}
+
+h1 {
+  color: #b7d735;
+  font-size: 30px;
+  line-height: 1.4;
+  margin: 0;
+  font-weight: 700;
+}

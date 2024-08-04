@@ -6,6 +6,7 @@ import WebDevBasics from './components/WebDevelopmentBasics.js';
 import AdvancedConc from './components/AdvancedConcepts.js';
 import Exercises from './components/Exercises.js';
 import Navbar from './components/Navbar.js';
+import './App.css';
 
 function App() { //entry point for React-Applications
                 // JS is executed directly in the browser
