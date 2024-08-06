@@ -6,23 +6,21 @@ const mongoose = require('mongoose');
 const app = express();
 const port = 5000;
 
-//Middleware
+// Middleware
 
 app.use(cors());
 app.use(bodyParser.json());
 
-// Verbindung zur MongoDB-Datenbank herstellen
-mongoose.connect('mongodb://localhost:27017/tech-guide', 
-    {
-    useNewUrlParser: true,
-    useUnifiedTopology: true
-  });
+// conncet to MongoDB
+mongoose.connect('mongodb+srv://yasinkapi97:PuLemFhbCYhroNPS@yasin.bmlgxns.mongodb.net/?retryWrites=true&w=majority&appName=Yasin');
 
-  // Einfache Route für Testzwecke
+
+  // simple route for testing
 app.get('/', (req, res) => {
-    res.send('Hello from the backend!');
+    res.send('Hello from the backend !');
   });
   
   app.listen(port, () => {
     console.log(`Server running at http://localhost:${port}/`);
   });
+  console.log('Backend started..');

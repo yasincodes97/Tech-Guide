@@ -6,7 +6,7 @@ function Home() {
   const [message, setMessage] = useState('');
 
   useEffect(() => {
-    axios.get('http://localhost:5000')
+    axios.get('http://localhost:3000')
       .then(response => {
         setMessage(response.data);
       })
@@ -16,10 +16,14 @@ function Home() {
   }, []);
 
   return (
+
+
     <div>
-      <h1>This is the beginning of your best coding journey ever..!</h1>
+      <h1 class = "head">This is the beginning of your best coding journey ever..!</h1>
     </div>
-  );
+  
+
+);
 }
 
 export default Home;

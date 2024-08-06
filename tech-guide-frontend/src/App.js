@@ -16,7 +16,7 @@ function App() { //entry point for React-Applications
                   <Router>  
                      <div className="App"></div>
                       <Navbar />
-                      <Routes>
+                      <Routes> <>  </>
                       <Route path="/" element={<Home />} />
                       <Route path="/python-basics" element={<PythonBasics />} />
                       <Route path="/web-dev-basics" element={<WebDevBasics />} />
@@ -25,7 +25,7 @@ function App() { //entry point for React-Applications
                       </Routes>
                     </Router>
                 );
-              }
+                    }
 
               
 export default App;
