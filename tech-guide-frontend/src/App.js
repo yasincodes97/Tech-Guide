@@ -5,8 +5,8 @@ import PythonBasics from './components/PythonBasics.js';
 import WebDevBasics from './components/WebDevelopmentBasics.js';
 import AdvancedConc from './components/AdvancedConcepts.js';
 import Exercises from './components/Exercises.js';
-import Navbar from './components/Navbar.js';
-import './App.css';
+import Navbar from './Navbar.js';
+
 
 function App() { //entry point for React-Applications
                 // JS is executed directly in the browser
@@ -18,7 +18,7 @@ function App() { //entry point for React-Applications
                       <Navbar />
                       <Routes> <>  </>
                       <Route path="/" element={<Home />} />
-                      <Route path="/python-basics" element={<PythonBasics />} />
+                      <Route path="/python---basics" element={<PythonBasics />} />
                       <Route path="/web-dev-basics" element={<WebDevBasics />} />
                       <Route path="/advanced-concepts" element={<AdvancedConc />} />
                       <Route path="/exercises" element={<Exercises />} />
