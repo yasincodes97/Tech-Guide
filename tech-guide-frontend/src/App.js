@@ -28,4 +28,4 @@ function App() { //entry point for React-Applications
                     }
 
               
-export default App;
+export default App; //exporting App.js as default

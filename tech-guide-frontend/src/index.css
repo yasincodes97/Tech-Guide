@@ -1,11 +1,21 @@
 
-body {
+body { /* für html elemente */
   margin: 0;
-  background-color: rgb(213, 175, 221);
+  background-color: rgb(46, 19, 51);
   font-family: 'Courier New', Courier, monospace, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
 
+}
+
+.head { /* für class */
+  margin:0;
+  font-size: 200;
+  font-style: oblique;
+}
+
+#tail { /* für ID */
+  margin:0;
+  font-size: 10000;
+  font-style: italic;
 }
 /*
 h1 {

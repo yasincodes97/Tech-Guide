@@ -3,27 +3,30 @@ import axios from 'axios';
 
 
 function Home() {
-  const [message, setMessage] = useState('');
+  //var test = [1,2,3];
+  
+  const [currMsg, updateMsg] = useState('');
+//array destrukturierung 
 
   useEffect(() => {
-    axios.get('http://localhost:3000')
-      .then(response => {
-        setMessage(response.data);
+    axios.get('http://localhost:5000')
+      .then(response => { //anonymous arrow function,  response is parameter 
+        updateMsg(response.data);
       })
       .catch(error => {
         console.error('There was an error!', error);
       });
   }, []);
 
+  //in React gibt return den JSX-code zurück
   return (
 
-
     <div>
-      <h1 class = "head">This is the beginning of your best coding journey ever..!</h1>
+      <h1 class = "head">Home</h1>
+      <h2 id = "tail">Test </h2>
     </div>
-  
 
 );
 }
-
+ 
 export default Home;

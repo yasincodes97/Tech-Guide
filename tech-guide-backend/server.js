@@ -1,7 +1,7 @@
-const express = require('express');
-const bodyParser = require('body-parser');
-const cors = require('cors');
-const mongoose = require('mongoose');
+import express from 'express';
+import { json } from 'body-parser';
+import cors from 'cors';
+import { connect } from 'mongoose';
 
 const app = express();
 const port = 5000;
@@ -9,10 +9,10 @@ const port = 5000;
 // Middleware
 
 app.use(cors());
-app.use(bodyParser.json());
+app.use(json());
 
 // conncet to MongoDB
-mongoose.connect('mongodb+srv://yasinkapi97:PuLemFhbCYhroNPS@yasin.bmlgxns.mongodb.net/?retryWrites=true&w=majority&appName=Yasin');
+connect('mongodb+srv://yasinkapi97:PuLemFhbCYhroNPS@yasin.bmlgxns.mongodb.net/?retryWrites=true&w=majority&appName=Yasin');
 
 
   // simple route for testing
