@@ -4,13 +4,14 @@ import { Link } from 'react-router-dom';
 function Navbar() {
   return (
     <nav>
-      <ul>
-        <li> <Link to="/">Basics of Computer Science</Link> </li>
-        <li> <Link to="/python---basics">Web Development</Link> </li>
-  {/*      <li><Link to="/web-dev-basics">Web Development Basics</Link> </li> */}
-        <li> <Link to="/advanced-concepts">Advanced Concepts</Link> </li>
-        <li> <Link to="/advanced-concepts">Approach to Software Development </Link></li>
-        <li> <Link to="/exercises">Frameworks & Libraries </Link> </li>
+      <ul>  {   /* to Attribut = URL 
+                   referenzieren die definierten Routen                       
+                                          */   }
+        
+        <li> <Link to="webdev">Web Development</Link> </li>
+        <li> <Link to="advanced">Advanced Concepts</Link> </li>
+        <li> <Link to="exercises">Exercises</Link></li>
+        <li> <Link to="frameworks">Frameworks & Libraries </Link> </li>
       </ul>
     </nav>
   );

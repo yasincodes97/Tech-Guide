@@ -1,32 +1,27 @@
 import React, { useEffect, useState } from 'react';
 import axios from 'axios';
 
+// used for HTTP GET requests
 
 function Home() {
-  //var test = [1,2,3];
+  
+  //var test = [1,2,3]; (Array)
   
   const [currMsg, updateMsg] = useState('');
-//array destrukturierung 
+  //array destrukturierung 
 
-  useEffect(() => {
+  useEffect(() => { //Callback Funktion als Parameter
     axios.get('http://localhost:5000')
-      .then(response => { //anonymous arrow function,  response is parameter 
+      .then(response => { //anonymous arrow function, response is parameter 
         updateMsg(response.data);
       })
       .catch(error => {
         console.error('There was an error!', error);
       });
-  }, []);
-
-  //in React gibt return den JSX-code zurück
-  return (
-
-    <div>
-      <h1 class = "head">Home</h1>
-      <h2 id = "tail">Test </h2>
-    </div>
-
-);
+  }, []); //leeres array 2. param. damit nur 1mal executed 
+ 
 }
+  //in React gibt return den JSX-code zurück
+
  
 export default Home;

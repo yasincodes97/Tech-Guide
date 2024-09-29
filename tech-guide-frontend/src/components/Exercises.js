@@ -1,5 +1,6 @@
 import React from 'react';
 
+// Konvention, Datei gleicher Name wie Funktion
 function Exercises() {
   return (
     <div>
