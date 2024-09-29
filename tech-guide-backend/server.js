@@ -1,5 +1,6 @@
 import express from 'express';
-import { json } from 'body-parser';
+import bodyParser from 'body-parser';
+const { json } = bodyParser;
 import cors from 'cors';
 import { connect } from 'mongoose';
 
