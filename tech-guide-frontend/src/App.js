@@ -8,7 +8,7 @@ import Navbar from './Navbar.js';
 
                   // Hauptkomp. wird in index.js gerendert
 function App() { //entry point for React-Applications
-                // JS is executed directly in the browser
+              // JS is executed directly in the browser
                 //JSX extension to JS, JS-XML is transformed to 
                 //JS with babel-Transpiler-Tool, React-Component
                 return (

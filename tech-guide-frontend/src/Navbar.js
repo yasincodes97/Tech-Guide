@@ -2,7 +2,7 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 
 function Navbar() {
-  return (
+  return ( 
     <nav>
       <ul>  {   /* to Attribut = URL 
                    referenzieren die definierten Routen                       
@@ -17,4 +17,5 @@ function Navbar() {
   );
 }
 
-export default Navbar;
+export default Navbar
+  
