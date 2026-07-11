@@ -1,32 +1,11 @@
 # Tech-Guide
 
+A JavaScript-based reference guide project for common tech topics.
 
-Welcome to the **Tech-Guide Web Application**! This project is designed to provide a clear, structured guide for anyone who wants to learn programming, covering a wide range of topics and offering a step-by-step path to becoming proficient in various programming languages and technologies.
+## Status
 
+🚧 **Work in progress** - this project is still under active development. Some features and content sections are incomplete.
 
-## Table of Contents
-t.b.d 
+## Tech Stack
 
-
-## Introduction
-Learning programming can be overwhelming due to the vast amount of information available. This web application aims to simplify the learning process by providing a clear and structured path.
-
-
-## Features
-t.b.d
-
-
-## Technologies Used
-t.b.d
-
-
-## Getting Started
-
-
-## Contact
-- **Project Link**: [https://github.com/yasin.codes/tech-guide](https://github.com/yasincodes97/tech-guide)
-- **Instagram**: [@yasin.codes](https://www.instagram.com/yasin.codes)
-
-
-Thank you for checking out the Tech-Guide Web Application!
-Happy coding!
+JavaScript
