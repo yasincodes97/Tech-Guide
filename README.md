@@ -13,8 +13,8 @@ A full-stack web application providing a structured learning guide for web devel
 
 ## Structure
 
-- `tech-guide-frontend/` — React application with topic components (Web Development Basics, Frameworks, Advanced Concepts, Exercises)
-- `tech-guide-backend/` — Express API server with MongoDB integration
+- `tech-guide-frontend/` - React application with topic components (Web Development Basics, Frameworks, Advanced Concepts, Exercises)
+- `tech-guide-backend/` - Express API server with MongoDB integration
 
 ## Note
 
