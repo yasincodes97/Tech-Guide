@@ -1,6 +1,6 @@
 # Tech-Guide
 
-A JavaScript-based reference guide project for common tech topics.
+A full-stack web application providing a structured learning guide for web development topics - from basics to advanced concepts and frameworks.
 
 ## Status
 
@@ -8,4 +8,14 @@ A JavaScript-based reference guide project for common tech topics.
 
 ## Tech Stack
 
-JavaScript
+**Frontend:** React
+**Backend:** Node.js, Express, MongoDB (Mongoose)
+
+## Structure
+
+- `tech-guide-frontend/` — React application with topic components (Web Development Basics, Frameworks, Advanced Concepts, Exercises)
+- `tech-guide-backend/` — Express API server with MongoDB integration
+
+## Note
+
+This is a personal project for learning full-stack development with the MERN-style stack (MongoDB, Express, React, Node.js).
